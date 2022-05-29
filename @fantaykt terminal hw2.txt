@@ -157,7 +157,7 @@ cat >> tf_2.txt
  grep -hr sec * > tf_7.txt
  
  39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово “sec”
- grep -l virus * | xargs rm
+ grep -l sec * | xargs rm
  
  40. Просто вывести в терминал строку “Good job!!”
  echo 'Good job!!'

@@ -24,6 +24,8 @@ touch bagreport.txt
 vim bagreport.txt
 
 4. Запушить структуру багрепорта на внешний репозиторий
+git add .
+git commit -m "new report"
 git push --set-upstream origin Reports
 
 5. Вмержить ветку Bag Reports в Main
@@ -41,11 +43,14 @@ touch Checklist.txt
 vim Checklist.txt
 
 8. Запушить структуру на внешний репозиторий
+git add .
+git commit -m "new cheklist"
 git push --set-upstream origin CheckLists
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 сделан пулреквест в гитхаб
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
+git checkout main
 git fetch
 git pull
